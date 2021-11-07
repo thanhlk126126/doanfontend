@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000310}}
+  header .menu ul li a {
+    margin: 13px 15px 0 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000318}}
+  .contact {
+    margin-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000322}}
+  .footer-mid, .footer-last {
+    margin-top: 20px; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000331}}
+  header .menu ul li a {
+    margin: 13px 10px 0 10px;
+    font-size: 12px; } }
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000344}}
+  header .menu .logo {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000348}}
+  header .menu ul {
+    float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/media\.scss}line{font-family:\0000351}}
+    header .menu ul li a {
+      margin: 13px 10px 0 10px;
+      font-size: 12px; } }
+
+/*# sourceMappingURL=media.css.map */

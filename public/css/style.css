@@ -1,0 +1,690 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000031}}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000032}}
+ol, ul, li {
+  padding: 0;
+  list-style: none;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000033}}
+label {
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000034}}
+input[type="text"], input[type="email"], input[type="password"] {
+  padding-left: 12px;
+  padding-right: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000035}}
+select {
+  padding-left: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000036}}
+input[type="number"] {
+  padding-left: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000037}}
+textarea {
+  padding: 8px 12px 5px 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000038}}
+input, textarea, select, button, a {
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\000039}}
+button {
+  border: none;
+  background: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003139}}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003179}}
+.relative {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003180}}
+.static {
+  position: static; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003181}}
+.absolute {
+  position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003183}}
+.text-justify {
+  text-align: justify; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003185}}
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003201}}
+.row-ibl {
+  font-size: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003203}}
+  .row-ibl > [class^="col-"] {
+    font-size: 14px;
+    float: none;
+    display: inline-block;
+    vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003208}}
+  .row-ibl:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003213}}
+  .row-ibl.mid > [class^="col-"] {
+    vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003214}}
+  .row-ibl.bot > [class^="col-"] {
+    vertical-align: bottom; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003216}}
+  .row-ibl > [class^="col-"].i-mid {
+    vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003217}}
+  .row-ibl > [class^="col-"].i-top {
+    vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003218}}
+  .row-ibl > [class^="col-"].i-bot {
+    vertical-align: bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_base\.scss}line{font-family:\00003236}}
+.col-xs-f20, .col-sm-f20, .col-md-f20, .col-lg-f20 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000334}}
+.col-xs-f20 {
+  float: left;
+  width: 20%; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000336}}
+  .col-sm-f20 {
+    float: left;
+    width: 20%; } }
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000339}}
+  .col-md-f20 {
+    float: left;
+    width: 20%; } }
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000342}}
+  .col-lg-f20 {
+    float: left;
+    width: 20%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000345}}
+.pad-0 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000346}}
+.pad-5 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000347}}
+.pad-8 {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000348}}
+.pad-10 {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000349}}
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000350}}
+.col-mar-0 {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000351}}
+.col-mar-0 > div[class^="col-"] {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000352}}
+.col-mar-5 {
+  margin-left: -5px;
+  margin-right: -5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000353}}
+.col-mar-5 > div[class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000354}}
+.col-mar-8 {
+  margin-left: -8px;
+  margin-right: -8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000355}}
+.col-mar-8 > div[class^="col-"] {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000356}}
+.col-mar-10 {
+  margin-left: -10px;
+  margin-right: -10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000357}}
+.col-mar-10 > div[class^="col-"] {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000359}}
+.delay02 {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000360}}
+.delay04 {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -ms-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000361}}
+.delay06 {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000364}}
+.c-img {
+  display: block;
+  position: relative;
+  padding-top: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000368}}
+  .c-img img, .c-img .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000384}}
+.hv-over {
+  display: block;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000387}}
+  .hv-over:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000394}}
+  .hv-over:hover:after {
+    background: rgba(255, 182, 40, 0.4); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\0000398}}
+.hv-scale {
+  overflow: hidden;
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003101}}
+  .hv-scale img {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003104}}
+  .hv-scale:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003108}}
+.hv-light {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003113}}
+  .hv-light:before, .hv-light:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003121}}
+  .hv-light:before {
+    right: 0;
+    bottom: 0;
+    background: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003127}}
+  .hv-light:after {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transition: 0.75s ease-in-out;
+    -moz-transition: 0.75s ease-in-out;
+    -ms-transition: 0.75s ease-in-out;
+    -o-transition: 0.75s ease-in-out;
+    transition: 0.75s ease-in-out;
+    -webkit-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    -moz-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    -o-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    -ms-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003135}}
+  .hv-light:hover:before {
+    background: rgba(242, 211, 0, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003138}}
+  .hv-light:hover:after {
+    -webkit-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    -moz-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    -o-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    -ms-transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    transform: scale3d(2, 1.5, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003143}}
+.bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003148}}
+.smooth {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+@media all and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003151}}
+  .md-left {
+    text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003152}}
+  .md-center {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003153}}
+  .md-right {
+    text-align: right; } }
+@media all and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003156}}
+  .sm-left {
+    text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003157}}
+  .sm-center {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003158}}
+  .sm-right {
+    text-align: right; } }
+@media all and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003161}}
+  .xs-left {
+    text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003162}}
+  .xs-center {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003163}}
+  .xs-right {
+    text-align: right; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003165}}
+.table {
+  display: table;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003168}}
+  .table .line {
+    display: table-row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003171}}
+  .table .cell {
+    display: table-cell; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003177}}
+.s-content ol {
+  list-style: decimal;
+  margin-left: 15px;
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003182}}
+.s-content ul {
+  list-style: initial;
+  margin-left: 15px;
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003187}}
+.s-content li {
+  list-style: inherit;
+  margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003191}}
+.s-content p {
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003194}}
+.s-content img {
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+  width: auto !important;
+  height: auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003201}}
+.s-content table, .s-content iframe {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003206}}
+.s-social .fb_iframe_widget, .s-social a.pinterest {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003211}}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003221}}
+.col-xs-15 {
+  width: 20%;
+  float: left; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003226}}
+  .col-sm-15 {
+    width: 20%;
+    float: left; } }
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003232}}
+  .col-md-15 {
+    width: 20%;
+    float: left; } }
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/_var\.scss}line{font-family:\00003238}}
+  .col-lg-15 {
+    width: 20%;
+    float: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000315}}
+body {
+  font-family: "Montserrat" !important;
+  line-height: 1.5;
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000322}}
+header .top-header {
+  background-image: url("../images/header_bg.webp");
+  z-index: 2;
+  background-color: rgba(38, 48, 59, 0.6);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000329}}
+  header .top-header a {
+    border-color: rgba(255, 255, 255, 0.1);
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 6px 24px 6px 24px;
+    margin: 1px 9px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000349}}
+header .menu {
+  background-image: url("../images/header_bg.webp");
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.6em;
+  letter-spacing: 0em;
+  color: #ffffff;
+  padding: 18px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000360}}
+  header .menu ul {
+    font-weight: bold;
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000364}}
+    header .menu ul li {
+      display: inline-block;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000368}}
+      header .menu ul li a {
+        margin: 13px 27px 0 27px;
+        font-size: 16px;
+        padding: 10px 0;
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000376}}
+      header .menu ul li:hover ul {
+        opacity: 1;
+        top: 100%;
+        pointer-events: all;
+        z-index: 1000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000383}}
+      header .menu ul li ul {
+        position: absolute;
+        width: 200px;
+        background: #232c37;
+        border-radius: 10px;
+        opacity: 0;
+        pointer-events: none;
+        transition: .5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000391}}
+        header .menu ul li ul li {
+          display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000393}}
+          header .menu ul li ul li a {
+            padding: 15px 0;
+            margin: 0 25px;
+            border-bottom: 1px solid #565656; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\0000398}}
+            header .menu ul li ul li a:hover {
+              color: #f1df00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003110}}
+.breadcrumb {
+  background-color: #f2f6fb;
+  padding: 17px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003114}}
+  .breadcrumb a {
+    color: #8e8a8a;
+    font-size: 16px;
+    font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003120}}
+  .breadcrumb .target {
+    color: #3821ff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003125}}
+.contact {
+  background-color: #f2f6fb;
+  font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003129}}
+  .contact span {
+    color: #3821ff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003134}}
+.text-grey {
+  color: #898989; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003138}}
+.font-size-24 {
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003143}}
+.toggle-post .job {
+  border-radius: 5px;
+  border: 1px solid #e8e0e0;
+  padding: 24px 15px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003152}}
+  .toggle-post .job i {
+    color: #ffffff;
+    background-color: #3821ff;
+    font-size: 9px;
+    border-radius: 100%;
+    padding: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003160}}
+  .toggle-post .job:hover {
+    background-color: #f2f6fb;
+    border-style: solid;
+    border-color: #f2f6fb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003167}}
+.toggle-post .info {
+  padding: 10px 0 10px 53px;
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003171}}
+  .toggle-post .info a {
+    background: #f1df00;
+    padding: 13px 32px;
+    border-radius: 15px;
+    border: 1px solid #f1df00; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003177}}
+    .toggle-post .info a:hover {
+      border: 1px solid #f1df00;
+      background: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003185}}
+.invest {
+  background-color: #3821ff;
+  color: #fff;
+  padding: 67px 0;
+  margin-top: 89px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003191}}
+  .invest h4 {
+    font-size: 35px;
+    font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003196}}
+  .invest p {
+    font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003200}}
+  .invest a {
+    background: #f1df00;
+    padding: 13px 32px;
+    border-radius: 15px;
+    border: 1px solid #f1df00;
+    color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003207}}
+    .invest a:hover {
+      color: #fff;
+      border: 1px solid #f1df00;
+      background: none;
+      transition: 0.5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003216}}
+.border-radius-15 {
+  border-radius: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003220}}
+footer {
+  color: #fff;
+  background-color: #131921;
+  padding: 59px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003225}}
+  footer h4 {
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003229}}
+  footer form {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003231}}
+    footer form button {
+      color: #fff;
+      background: #3821ff;
+      border: 1px solid #3821ff;
+      border-radius: 20px;
+      position: absolute;
+      padding: 10px 36px;
+      right: 0;
+      top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003242}}
+    footer form input {
+      border-radius: 20px;
+      border: 1px solid #d8d8d8;
+      background-color: #26303b;
+      padding: 10px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003252}}
+h6 {
+  color: #b8b8b8;
+  background: #26303b;
+  text-align: center;
+  padding: 7px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003259}}
+.text-yellow {
+  color: #f1df00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ThanhDT\/Desktop\/web\/public\/scss\/style\.scss}line{font-family:\00003264}}
+.back-to-top {
+  display: block;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 999; }
+
+/*# sourceMappingURL=style.css.map */
